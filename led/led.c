@@ -32,13 +32,13 @@ void LED_Init(void) {
 
 void LED_On(void) {
 
-    gpio_put(LED_PIN, LED_LEVEL_ON);
+    gpio_put(LED_PIN, LED_LEVEL_HIGH);
 
 }
 
 
 void LED_Off(void) {
 
-    gpio_put(LED_PIN, LED_LEVEL_OFF);
+    gpio_put(LED_PIN, LED_LEVEL_LOW);
 
 }

@@ -9,10 +9,10 @@
 /*================================== Defined Variables ==================================*/
 
 
-#define LED_PIN                 25 // PICO_DEFAULT_LED_PIN
+#define LED_PIN                     PICO_DEFAULT_LED_PIN
 
-#define LED_LEVEL_ON            1
-#define LED_LEVEL_OFF           0
+#define LED_LEVEL_HIGH              1
+#define LED_LEVEL_LOW               0
 
 
 /*================================== Functions ==================================*/
