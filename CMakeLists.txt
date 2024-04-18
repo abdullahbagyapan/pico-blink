@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 # initialize the SDK directly
-include(/home/abagyapan/pico-sdk/pico_sdk_init.cmake)
+include(pico_sdk_import.cmake)
 
 project(RASPBERRY_PI_PICO_BLINK_LED)
 
